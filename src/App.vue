@@ -8,16 +8,11 @@ import MainFooter from './components/MainFooter.vue'
 
 <template>
   <header>
-    <div class="">
-      <!-- <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav> -->
-    </div>
+    <div class=""></div>
   </header>
 
   <main class="font-sans text-xl flex content-center justify-center h-[95vh]">
-    <div class="mx-auto lg:mt-50px lg:max-w-[40%]">
+    <div class="mx-auto lg:mt-50px lg:max-w-[60%]">
       <Pikachu class="mx-auto mb-[-50px] w-[150px] z-[-10]" />
       <div class="px-10">
         <h1 class="font-600 text-6xl">
@@ -76,5 +71,16 @@ p {
 }
 .font-chinese {
   font-family: 'Noto Sans SC', cursive;
+}
+@media (prefers-color-scheme: dark) {
+  * {
+    background: #191919;
+  }
+  h1,
+  h2,
+  h3,
+  p {
+    color: #fcfbf795;
+  }
 }
 </style>
