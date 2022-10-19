@@ -17,7 +17,7 @@ import MainFooter from './components/MainFooter.vue'
   </header>
 
   <main class="font-sans text-xl flex content-center justify-center h-[95vh]">
-    <div class="mx-auto lg:mt-50px max-w-[95%] lg:max-w-[40%]">
+    <div class="mx-auto lg:mt-50px lg:max-w-[40%]">
       <Pikachu class="mx-auto mb-[-50px] w-[150px] z-[-10]" />
       <div class="px-10">
         <h1 class="font-600 text-6xl">
