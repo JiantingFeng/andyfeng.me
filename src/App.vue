@@ -16,8 +16,8 @@ import MainFooter from './components/MainFooter.vue'
     </div>
   </header>
 
-  <main class="font-sans text-xl flex content-center justify-center h-[90vh]">
-    <div class="mx-auto mt-50px max-w-[80%] max-h-[80%] lg:max-w-[40%]">
+  <main class="font-sans text-xl flex content-center justify-center h-[95vh]">
+    <div class="mx-auto lg:mt-50px max-w-[95%] lg:max-w-[40%]">
       <Pikachu class="mx-auto mb-[-50px] w-[150px] z-[-10]" />
       <div class="py-8 px-10">
         <h1 class="font-600 text-6xl">
@@ -63,6 +63,11 @@ import MainFooter from './components/MainFooter.vue'
 <style>
 * {
   background: #ffd864;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 p {
   line-height: 1.5;
