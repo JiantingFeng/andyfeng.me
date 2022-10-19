@@ -80,7 +80,7 @@ p {
   h2,
   h3,
   p {
-    color: #fcfbf795;
+    color: rgba(255, 255, 255, 0.8);
   }
 }
 </style>
