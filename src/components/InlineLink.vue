@@ -11,7 +11,7 @@ const Props = defineProps<{
     </a>
   </span>
 </template>
-<style>
+<style scoped>
 a {
   text-decoration: none;
   color: inherit;

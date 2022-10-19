@@ -1,0 +1,22 @@
+<script setup lang="ts">
+const year = new Date().getFullYear()
+</script>
+<template>
+  <footer class="px-5">
+    <div class="text-center text-zinc-800/30 font-sans">
+      &copy; 2021-{{ year }}, Andy Feng all rights reversed.
+    </div>
+    <div class="text-center text-zinc-800/30 font-sans mt-2">
+      All texts and images are under
+      <a href="https://creativecommons.org/licenses/by-nd/4.0/"
+        >Creative Commons — Attribution-NoDerivatives 4.0 International — CC
+        BY-ND 4.0</a
+      >.
+    </div>
+  </footer>
+</template>
+<style scoped>
+a {
+  color: inherit;
+}
+</style>
