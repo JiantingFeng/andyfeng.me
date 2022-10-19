@@ -26,7 +26,7 @@ footer {
 }
 @media (prefers-color-scheme: dark) {
   div {
-    color: rgba(245, 222, 179, 0.3);
+    color: #fcfbf730;
   }
 }
 </style>
