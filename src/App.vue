@@ -43,7 +43,7 @@ import MainFooter from './components/MainFooter.vue'
           <span class="font-chinese font-100 text-2xl mx-1">冯建霆</span> (féng
           jiàn tíng). Sending me
           <InlineLink name="email" href="mailto:gianting01@gmail.com" /> is the
-          simplest way to contact me, feel free to contact me.
+          simplest way to contact me.
         </p>
         <p>
           Outside of machine learning and open sourcing, I enjoy Japanese anime
