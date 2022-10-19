@@ -7,9 +7,7 @@ const year = new Date().getFullYear()
       &copy; 2021-{{ year }}, Andy Feng all rights reversed.
     </div>
     <div class="text-center text-zinc-800/30 font-sans mt-2">
-      <a href="https://creativecommons.org/licenses/by-nd/4.0/"
-        >Creative Commons — Attribution-NoDerivatives 4.0 International — CC
-        BY-ND 4.0</a
+      <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a
       >.
     </div>
   </footer>

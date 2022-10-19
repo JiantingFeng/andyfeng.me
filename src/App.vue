@@ -19,7 +19,7 @@ import MainFooter from './components/MainFooter.vue'
   <main class="font-sans text-xl flex content-center justify-center h-[95vh]">
     <div class="mx-auto lg:mt-50px max-w-[95%] lg:max-w-[40%]">
       <Pikachu class="mx-auto mb-[-50px] w-[150px] z-[-10]" />
-      <div class="py-8 px-10">
+      <div class="px-10">
         <h1 class="font-600 text-6xl">
           Hello.<span class="i-uil:bolt ml-2px" />
         </h1>
@@ -54,6 +54,7 @@ import MainFooter from './components/MainFooter.vue'
           with different flavors of coffee.
         </p>
       </div>
+      <div class="min-h-[30px]"></div>
     </div>
   </main>
   <MainFooter />
